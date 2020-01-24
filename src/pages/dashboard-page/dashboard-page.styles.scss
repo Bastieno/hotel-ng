@@ -1,0 +1,29 @@
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: card1; }
+.item6 { grid-area: card2; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'menu header header header header'
+    'menu main main right right'
+    'menu card1 card1 card2 card2 ';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item2 {
+  height: 700px;
+}
