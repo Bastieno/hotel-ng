@@ -6,11 +6,9 @@ export default function DashBoardPage() {
   return (
     <div class="dashboard-container">
       <div id="mySidenav" class="sidenav">
-        <Link to="/">Home</Link>
-        <Link to="/">About</Link>
-        <Link to="/">Services</Link>
-        <Link to="/">Clients</Link>
-        <Link to="/">Contact</Link>
+        <Link to="/">Dashboard</Link>
+        <Link to="/">Budget</Link>
+        <Link to="/">Approvals</Link>
       </div>
       <div id="main">
         <header className="nav-bar">
@@ -42,7 +40,7 @@ export default function DashBoardPage() {
                   <div className="bottom">
                     <div className="icon"></div>
                     <div>
-                      <p>Total CAPEX Balance</p>
+                      <p>Total CAPEX Spent</p>
                       <p>N 32,000,000</p>
                     </div>
                   </div>
@@ -68,7 +66,7 @@ export default function DashBoardPage() {
                 <div className="bottom">
                   <div className="icon"></div>
                   <div>
-                    <p>Total CAPEX Balance</p>
+                    <p>Total CAPEX Spent</p>
                     <p>N 32,000,000</p>
                   </div>
                 </div>
