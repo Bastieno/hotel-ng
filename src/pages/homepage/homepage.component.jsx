@@ -2,6 +2,7 @@ import React from 'react';
 import HeroMast from '../../components/hero-mast/hero-mast.component';
 import AboutUs from '../../components/about-us/about-us.component';
 import RoomsSection from '../../components/rooms/rooms.component';
+import Testimonials from '../../components/testimonials/testimonials.component';
 
 import './homepage.styles.scss';
 
@@ -11,6 +12,7 @@ export default function HomePage() {
       <HeroMast />
       <AboutUs />
       <RoomsSection />
+      <Testimonials />
     </div>
   );
 }

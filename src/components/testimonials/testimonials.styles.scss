@@ -1,0 +1,81 @@
+.testimonial-bg {
+    height: 700px;
+    background: url('../../assets/about-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+
+    .testimonial-carousel {
+      width: 70%;
+      margin: 0 auto;
+      padding: 5rem 0;
+
+
+
+      .testimonial-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        padding: 4rem;
+        height: 500px;
+
+        .card-img-container {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          .card-img {
+            margin-bottom: 1rem;
+          }
+
+          p {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 12px;
+            font-style: normal;
+          }
+        }
+
+        h1 {
+          font-family: 'Source Sans Pro', sans-serif;
+          font-size: 12px;
+          font-weight: bold;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: 4.94px;
+          text-align: justify;
+          color: #9b9b9b;
+          margin-bottom: 2rem;
+        }
+
+        h2 {
+          font-family: Georgia;
+          font-size: 30px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: 2.12px;
+          text-align: center;
+          color: #000000;
+          margin-bottom: 2rem;
+        }
+
+        p {
+          font-family: Georgia;
+          font-size: 17px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: italic;
+          line-height: 1.46;
+          letter-spacing: 1.41px;
+          text-align: center;
+          color: #000000;
+          margin-bottom: 3rem;
+        }
+      }
+    }
+}
