@@ -1,4 +1,5 @@
 import React from 'react';
+import NavigationBar from '../../components/navigation-bar/navigation-bar.component';
 import HeroMast from '../../components/hero-mast/hero-mast.component';
 import AboutUs from '../../components/about-us/about-us.component';
 import RoomsSection from '../../components/rooms/rooms.component';
@@ -11,6 +12,7 @@ import './homepage.styles.scss';
 export default function HomePage() {
   return (
     <div className="homepage">
+      <NavigationBar />
       <HeroMast />
       <AboutUs />
       <RoomsSection />
