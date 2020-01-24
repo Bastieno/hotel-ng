@@ -1,0 +1,95 @@
+.map-container {
+  display: flex;
+
+  .left-content {
+    flex: 60%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .right-content {
+    flex: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+
+    h1 {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 12px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: 4.94px;
+      text-align: justify;
+      color: #9b9b9b;
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      font-family: Georgia;
+      font-size: 24px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: 4.94px;
+      text-align: justify;
+      color: #000000;
+      margin-bottom: 3rem;
+    }
+
+    h3 {
+      font-family: Georgia;
+      font-size: 24px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: 1.41px;
+      color: #000000;
+      margin-bottom: 3rem;
+    }
+
+    p {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2.14;
+      letter-spacing: 0.82px;
+      color: #9b9b9b;
+
+    }
+
+    p:last-of-type {
+      margin-bottom: 3rem;
+    }
+
+    h4 {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2.14;
+      letter-spacing: 0.82px;
+      color: #9b9b9b;
+      margin-bottom: 1rem;
+    }
+
+    h5 {
+        font-family: Georgia;
+        font-size: 30px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 2.12px;
+        color: #000000;
+    }
+  }
+}
