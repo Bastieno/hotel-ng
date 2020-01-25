@@ -8,7 +8,7 @@ import './dashboard-page.styles.scss';
 
 export default function DashBoardPage() {
   return (
-    <div class="dashboard-container">
+    <div className="dashboard-container">
       <Sidenav />
       <div id="main">
         <Header />

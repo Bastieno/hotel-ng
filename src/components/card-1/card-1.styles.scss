@@ -79,16 +79,14 @@
         // align-items: center;
 
         .donut-graph {
-          width: 70px;
-          height: 70px;
-          border-radius: 50%;
-          background-color: blueviolet;
-          margin-top: 1rem;
+          width: 170px;
+          height: 170px;
         }
 
         .description {
           display: flex;
           flex-direction: column;
+          align-self: center;
           padding: 1rem 0;
 
           .top, .bottom {
