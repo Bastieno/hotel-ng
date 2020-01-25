@@ -1,120 +1,46 @@
 
-.sidenav {
-  position: fixed;
-  height: 100%;
-  width: 200px;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  background-color: darkgray;
-  padding-top: 60px;
-  overflow: hidden;
-}
-
-.sidenav a {
-  text-align: center;
-  text-decoration: none;
-  color: #000;
-  display: block;
-  padding: 20px;
-  transition: 0.3s;
-}
-
-.sidenav a:hover {
-  background-color: lightslategray;
-}
-
-
 #main {
-  padding: 10px;
   height: 100%;
   margin-left: 200px;
 }
 
+.top-content {
+  margin: 2rem 4rem 0.5rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h3 {
+    font-family: France;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    color: #13244e;
+  }
+
+  span {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #000000;
+  }
+}
+
 .row1 {
   width: 90%;
-  margin: 1rem auto;
+  margin: 0.5rem auto;
   display: flex;
-
-  .col-60 {
-    flex: 60%;
-    .card1 {
-      background-color: darkgray;
-      padding: 1rem;
-      margin: 1rem;
-      display: flex;
-      flex-direction: column;
-
-      .card-header {
-        display: flex;
-        justify-content: space-between;
-      }
-
-      .card-content {
-        display: flex;
-        justify-content: space-evenly;
-
-        .donut-graph {
-          width: 70px;
-          height: 70px;
-          border-radius: 50%;
-          background-color: blueviolet;
-          margin-top: 1rem;
-        }
-
-        .description {
-          display: flex;
-          flex-direction: column;
-          padding: 1rem 0;
-
-          .top, .bottom {
-            width: 172px;
-            margin-bottom: 1rem;
-            display: flex;
-            justify-content: space-between;
-            .icon {
-              width: 30px;
-              height: 30px;
-              border-radius: 50%;
-              background-color: greenyellow;
-            }
-          }
-        }
-      }
-    }
-  }
-
-  .col-40 {
-    flex: 40%;
-    .card2 {
-      background-color: darkgray;
-      padding: 1rem;
-      margin: 1rem;
-      display: flex;
-      flex-direction: column;
-    }
-  }
 }
 
 .row2 {
   width: 90%;
-  margin: 1rem auto;
+  margin: 0.5rem auto;
   display: flex;
-
-  .col-50 {
-    flex: 50%;
-    .card3 {
-      background-color: darkgray;
-      padding: 1rem;
-      margin: 1rem;
-      display: flex;
-      flex-direction: column;
-
-      .card-chart {
-        width: 100%;
-        height: 200px;
-        background-color: blueviolet;
-      }
-    }
-  }
 }

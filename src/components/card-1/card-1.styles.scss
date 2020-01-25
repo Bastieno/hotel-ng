@@ -1,0 +1,121 @@
+.col-60 {
+    flex: 60%;
+    .card1 {
+      padding: 0.2rem 1rem;
+      margin: 1rem;
+      display: flex;
+      flex-direction: column;
+      // height: 200px;
+      border-radius: 6px;
+      box-shadow: 0 7px 64px 0 rgba(19, 36, 78, 0.07);
+      background-color: #ffffff;
+
+      .card-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px dotted  #ebebf2;
+        padding: 4px 10px 7px;
+
+        .right {
+          span {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 11px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.05;
+            letter-spacing: normal;
+            color: #4dd599;
+            border-radius: 6px;
+            background-color: rgba(77, 213, 153, 0.2);
+            padding: 0.2rem 0.7rem;
+          }
+        }
+
+        .left {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+
+          .clock-logo {
+            width: 25px;
+            height: 25px;
+            margin-right: 5px;
+          }
+
+          p {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 12px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.29;
+            letter-spacing: normal;
+            color: #13244e;
+            margin-right: 5px;
+          }
+
+          span {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.05;
+            letter-spacing: normal;
+            color: #512c62;
+            border-radius: 6px;
+            background-color: rgba(81, 44, 98, 0.2);
+            padding: 0.4rem 1rem;
+            white-space: nowrap;
+          }
+        }
+      }
+
+      .card-content {
+        display: flex;
+        justify-content: space-evenly;
+        // align-items: center;
+
+        .donut-graph {
+          width: 70px;
+          height: 70px;
+          border-radius: 50%;
+          background-color: blueviolet;
+          margin-top: 1rem;
+        }
+
+        .description {
+          display: flex;
+          flex-direction: column;
+          padding: 1rem 0;
+
+          .top, .bottom {
+            width: 172px;
+            margin-bottom: 1rem;
+            display: flex;
+
+            .money-icon {
+              width: 30px;
+              height: 30px;
+            }
+
+            .text {
+              padding-left: 10px;
+              p {
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 14px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.25;
+                letter-spacing: normal;
+                color: #13244e;
+              }
+            }
+          }
+        }
+      }
+    }
+  }

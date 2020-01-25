@@ -1,0 +1,45 @@
+.col-40 {
+    flex: 40%;
+    .card2 {
+      padding: 0 0.8rem 0.7rem;
+      margin: 1rem;
+      display: flex;
+      flex-direction: column;
+      border-radius: 6px;
+      box-shadow: 0 7px 64px 0 rgba(19, 36, 78, 0.07);
+      background-color: #ffffff;
+
+      .card2-header {
+        border-bottom: 1px dotted  #ebebf2;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.29;
+        letter-spacing: normal;
+        color: #13244e;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+
+        .logo {
+          width: 25px;
+          height: 25px;
+          margin-right: 5px;
+        }
+      }
+
+      button {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 28px;
+        font-weight: 600;
+        border-radius: 8px;
+        background-color: #f0f3f9;
+        padding: 0.5rem;
+        border: none;
+        margin: 0.7rem 0;
+      }
+
+    }
+  }
