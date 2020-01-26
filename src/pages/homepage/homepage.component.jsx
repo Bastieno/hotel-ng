@@ -6,6 +6,7 @@ import RoomsSection from '../../components/rooms/rooms.component';
 import Testimonials from '../../components/testimonials/testimonials.component';
 import Blog from '../../components/blog/blog.component';
 import Map from '../../components/map/map.component';
+import Footer from '../../components/footer/footer.component';
 
 import './homepage.styles.scss';
 
@@ -19,6 +20,7 @@ export default function HomePage() {
       <Testimonials />
       <Blog />
       <Map />
+      <Footer />
     </div>
   );
 }

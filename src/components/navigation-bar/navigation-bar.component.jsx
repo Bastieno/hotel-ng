@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './navigation-bar.styles.scss';
 import logo from '../../assets/transcorp-1.png';
 
@@ -12,7 +13,7 @@ export default function NavigationBar() {
           <p>Contact us directly at 01 33943  +234 807 340 4890 ( Local time 12: 00 ) </p>
         </div>
         <div className="nav-top-right">
-          <p>EN &#x2228;</p>
+          <p>EN <FontAwesomeIcon icon='angle-down' /> </p>
         </div>
       </div>
       <ul className="nav-bottom">

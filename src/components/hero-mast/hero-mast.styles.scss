@@ -36,10 +36,16 @@
         div {
           display: flex;
           justify-content: space-between;
+          align-items: baseline;
 
-          p strong {
-            font-size: 30px;
-            letter-spacing: 2px;
+          p {
+            font-size: 11px;
+            font-family: 'Open Sans';
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: 0.58px;
             text-align: justify;
             color: #000000;
           }
@@ -139,4 +145,16 @@
       }
     }
   }
+}
+
+.checkin-date span, .checkout-date span, .guests-number span {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-align: justify;
+  color: #000000;
 }
