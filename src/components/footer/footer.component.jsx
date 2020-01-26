@@ -68,11 +68,11 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <FontAwesomeIcon icon={['fab', 'facebook-square']} className="footer-icon" size="md" color="#9b9b9b" />
-        <FontAwesomeIcon icon={['fab', 'twitter']} className="footer-icon" size="md" color="#9b9b9b" />
-        <FontAwesomeIcon icon={['fab', 'google-plus-square']} className="footer-icon" size="md" color="#9b9b9b" />
-        <FontAwesomeIcon icon={['fab', 'linkedin']} className="footer-icon" size="md" color="#9b9b9b" />
-        <FontAwesomeIcon icon={['fab', 'instagram']} className="footer-icon" size="md" color="#9b9b9b" />
+        <FontAwesomeIcon icon={['fab', 'facebook-square']} className="footer-icon" size="sm" color="#9b9b9b" />
+        <FontAwesomeIcon icon={['fab', 'twitter']} className="footer-icon" size="sm" color="#9b9b9b" />
+        <FontAwesomeIcon icon={['fab', 'google-plus-square']} className="footer-icon" size="sm" color="#9b9b9b" />
+        <FontAwesomeIcon icon={['fab', 'linkedin']} className="footer-icon" size="sm" color="#9b9b9b" />
+        <FontAwesomeIcon icon={['fab', 'instagram']} className="footer-icon" size="sm" color="#9b9b9b" />
       </div>
     </footer>
 
