@@ -21,6 +21,11 @@
       line-height: 1.33;
       letter-spacing: normal;
       color: #000000;
+      margin-bottom: 0.2rem;
+
+      .icon {
+        margin-left: 0.5rem;
+      }
     }
 
     p {
@@ -32,6 +37,8 @@
       line-height: 1.18;
       letter-spacing: normal;
       color: #000000;
+      text-align: right;
+      margin-right: 1rem;
     }
   }
 }

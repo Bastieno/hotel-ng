@@ -1,5 +1,6 @@
 import React from 'react';
 import ZingChart from 'zingchart-react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './card-3.styles.scss';
 
 class Card3 extends React.Component {
@@ -7,10 +8,43 @@ class Card3 extends React.Component {
     super(props);
     this.state = {
       config: {
-        type: 'bar',
-        series: [{
-          values: [4, 5, 3, 4, 5, 3, 5, 4, 11]
-        }]
+        type: "bar",
+        plotarea: {
+          adjustLayout: true
+        },
+        scaleX: {
+          labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+          "item": {
+            "offsetY": 2,
+            "angle": 0
+          },
+          "tick": {
+            "size": 1
+          }
+        },
+        "plot": {
+          "bars-space-left": 0.3,
+          "bars-space-right": 0.15
+        },
+        "tooltip": {
+          "visible": false
+        },
+        "crosshair-x": {
+          "line-width": "100%",
+          "alpha": 0.4,
+        },
+        series: [
+          {
+            values: [11, 23, 11, 22, 9, 46, 7, 4, 38, 13, 12, 11],
+            "text": "Spent",
+            'background-color': "#e95957",
+          },
+          {
+            values: [15, 13, 34, 18, 42, 28, 32, 15, 33, 15, 17, 5],
+            "text": "Balance",
+            'background-color': "#17c7bf"
+          }
+        ]
       }
     };
   }
@@ -31,7 +65,21 @@ class Card3 extends React.Component {
               </div>
             </div>
             <div className="card-chart">
-              <ZingChart data={this.state.config} />
+              <ZingChart height="300" width="100%" data={this.state.config} />
+            </div>
+            <div className="chart-legend">
+              <p className="spent">
+                <FontAwesomeIcon
+                  icon="circle"
+                  className="icon"
+                  size="xs"
+                />Spent</p>
+              <p className="balance">
+                <FontAwesomeIcon
+                  icon="circle"
+                  className="icon"
+                  size="xs"
+                />Balance</p>
             </div>
           </div>
         </div>
@@ -48,7 +96,21 @@ class Card3 extends React.Component {
               </div>
             </div>
             <div className="card-chart">
-              <ZingChart data={this.state.config} />
+              <ZingChart height="300" width="100%" data={this.state.config} />
+            </div>
+            <div className="chart-legend">
+              <p className="spent">
+                <FontAwesomeIcon
+                  icon="circle"
+                  className="icon"
+                  size="xs"
+              />Spent</p>
+              <p className="balance">
+                <FontAwesomeIcon
+                  icon="circle"
+                  className="icon"
+                  size="xs"
+                />Balance</p>
             </div>
           </div>
         </div>

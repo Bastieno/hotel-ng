@@ -18,15 +18,15 @@ class Card1 extends React.Component {
           tooltip: {
             rules: [
               {
-                text: '%v %t Completed',
+                text: '%v%t Completed',
                 borderRadius: '4px',
-                rule: '%v == 56',
+                rule: '%v > 0',
                 shadow: false
               },
               {
-                text: '%v %t Remaining',
+                text: '%v%t Remaining',
                 borderRadius: '4px',
-                rule: '%v == 44',
+                rule: '%v > 0',
                 shadow: false
               }
             ]
@@ -41,7 +41,7 @@ class Card1 extends React.Component {
             placement: 'center',
             rules: [
               {
-                rule: '%v < 56',
+                rule: '%v < 0',
                 visible: false
               }
             ],
@@ -70,16 +70,16 @@ class Card1 extends React.Component {
         },
         series: [
           {
-            text: 'Miles',
-            values: [56],
+            text: '%',
+            values: [50],
             // backgroundColor: '#8AB839',
             backgroundColor: '#6915cf',
             borderWidth: '0px',
             shadow: false
           },
           {
-            values: [44],
-            text: 'Miles',
+            values: [50],
+            text: '%',
             alpha: 0.5,
             backgroundColor: '#dadada',
             borderColor: '#dadada',

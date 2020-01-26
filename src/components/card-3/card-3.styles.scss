@@ -56,8 +56,45 @@
 
       .card-chart {
         width: 100%;
-        // height: 400px;
         background-color: lightgray;
+      }
+
+      .chart-legend {
+        display: flex;
+        justify-content: space-evenly;
+
+        .spent {
+          font-size: 11px;
+          font-family: 'Open Sans';
+          font-weight: 600;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: #17c7bf;
+          border-radius: 8px;
+          background-color: #f2f2f2;
+          padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+
+
+          .icon {
+            margin-right: 0.7rem;
+          }
+        }
+
+        .balance {
+          font-size: 11px;
+          font-family: 'Open Sans';
+          font-weight: 600;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: #e95957;
+          .icon {
+            margin-right: 0.7rem;
+          }
+        }
       }
 
       h2 {
@@ -83,4 +120,8 @@
         margin: 0.3rem 0 1rem;
       }
     }
+  }
+
+  .red {
+    color: red;
   }
